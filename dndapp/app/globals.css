@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+ h1{
+    text-align: center;
+    font-size:70px;
+ }
+ .forwarder{
+    font-size: larger;
+    text-align: center;
+ }
+ 
+ .sg-lg-banner{
+    display: flex;
+    padding: 2rem 2rem;
+    justify-content: center;
+    gap: 5%;
+ }
+ .signup-plate{
+    padding: 2rem 2rem;
+    border: 3px solid #312A81;
+    border-radius: 30px;
+ }
+
+
+ .login-plate{
+    padding: 2rem 2rem;
+    border: 3px solid #FFE484;
+    border-radius: 30px;
+ }
+ .signup-plate h3{
+    text-align: center;
+ }
+ .sg-content{
+    padding: 10% 0%;
+ }
+
+ .dm-pl-banner{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+ }
+ .dm-plate{
+    padding: 2rem 2rem;
+    border: 3px solid #312A81;
+    border-radius: 30px;
+ }
+
+ .pl-plate{
+    padding: 2rem 2rem;
+    border: 3px solid #FFE484;
+    border-radius: 30px;
+ }
