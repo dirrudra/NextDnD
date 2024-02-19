@@ -49,7 +49,13 @@ export async function DELETE(req:Request, ) {
 export async function PUT(req:Request, ) {
   const {imageurl,story,rules,id} = await req.json()
   try {
-    await db.update(game).set({imageUrl:imageurl,story:story,rules:rules}).where(eq(game.id,id))
+    await db.update(game).set(
+      {imageUrl:imageurl,
+        story:story,
+        rules:rules,
+        updatedAt: new Date()
+      }
+      ).where(eq(game.id,id))
 
     return NextResponse.json({ message:"okay"});
   } catch (error) {
