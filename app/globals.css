@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+ */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+ 
+.main-page{
+   text-align: center;
+   font-size: 5rem;
+   display: block;
+}
+
+.mp-title{
+color: white;
+
+}
+ .forwarder{
+    font-size: 3rem;
+    text-align: center;
+ }
+ 
+ .sg-lg-banner{
+    display: flex;
+    padding: 4rem 4rem;
+    justify-content: center;
+    gap: 5%;
+ }
+ .signup-plate{
+    padding: 11rem 12rem;
+    border: 3px solid #312A81;
+    border-radius: 30px;
+    background-color: #312A81;
+    
+ }
+ .signup-plate h3{
+   text-align: center;
+   font-size: x-large;
+   font-weight: 800;
+   margin: 1rem 3rem;
+   padding: 1rem 6rem;
+   background-color: black;
+   border-radius: 20px;
+ }
+
+
+ .login-plate{
+    padding: 11rem 10rem;
+    border: 3px solid #FFE484;
+    border-radius: 30px;
+    background-color: #FFE484;
+    
+
+ }
+ .login-plate h3{
+   
+   font-size: x-large;
+   font-weight: 800;
+   padding: 1rem 1rem;
+   background-color: black;
+   border-radius: 20px;
+   
+ }
+ 
+ .sg-content{
+    padding: 10% 0%;
+ }
+
+ .dm-pl-banner{
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+    padding: 5% 5%;
+ }
+ .dm-plate{
+   padding: 14rem 12rem;
+   border: 3px solid #312A81;
+   border-radius: 30px;
+   background-color: #312A81;
+   
+}
+.dm-plate h3{
+   
+   font-size: x-large;
+   font-weight: 800;
+   padding: 1rem 1rem;
+   background-color: black;
+   border-radius: 20px;
+   
+ }
+ .pl-plate{
+   padding: 14rem 10rem;
+   border: 3px solid #FFE484;
+   border-radius: 30px;
+   background-color: #FFE484;
+   
+}
+.pl-plate h3{
+   text-align: center;
+   font-size: x-large;
+   font-weight: 800;
+   margin: 1rem 3rem;
+   padding: 1rem 6rem;
+   background-color: black;
+   border-radius: 20px;
+}
+/* Box.css */
+.box {
+  width: 200px;
+  height: 20px;
+  background-color: lightblue;
+  border: 2px solid navy;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: navy;
+}
