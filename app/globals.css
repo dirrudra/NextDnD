@@ -41,52 +41,49 @@ body {
     font-size: 3rem;
     text-align: center;
  }
- 
  .sg-lg-banner{
     display: flex;
     padding: 4rem 4rem;
     justify-content: center;
     gap: 5%;
- }
- .signup-plate{
-    padding: 5rem 5rem;
+}
+
+.signup-plate{
+    padding: 5rem 4rem; /* Adjusted padding */
     border: 3px solid #312A81;
     border-radius: 30px;
     background-color: #312A81;
-    
- }
- .signup-plate h3{
-   text-align: center;
-   font-size: x-large;
-   font-weight: 800;
-   margin: 1rem 3rem;
-   padding: 1rem 2rem;
-   background-color: black;
-   border-radius: 20px;
- }
+}
 
+.signup-plate h3{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+    margin: 1rem 3rem; /* Adjusted margin */
+    padding: 1rem 2rem;
+    background-color: black;
+    border-radius: 20px;
+}
 
- .login-plate{
-    padding: 2rem 2rem;
+.login-plate{
+    padding: 5rem 4rem; /* Adjusted padding */
     border: 3px solid #FFE484;
     border-radius: 30px;
     background-color: #FFE484;
-    
+}
 
- }
- .login-plate h3{
-   
-   font-size: x-large;
-   font-weight: 800;
-   padding: 1rem 1rem;
-   background-color: black;
-   border-radius: 20px;
-   
- }
- 
- .sg-content{
+.login-plate h3{
+    text-align: center; /* Added to center the text */
+    font-size: x-large;
+    font-weight: 800;
+    padding: 1rem 1rem;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.sg-content{
     padding: 10% 0%;
- }
+}
 
  .dm-pl-banner{
     display: flex;
